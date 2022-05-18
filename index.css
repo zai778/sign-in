@@ -1,0 +1,36 @@
+span {
+  color: red;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  margin: 8px;
+}
+button {
+  display: block;
+  margin-top: 15px;
+  border: none;
+  width: 300px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+div {
+  width: 300px;
+  margin: auto;
+  padding-top: 200px;
+}
+h1 {
+  margin-bottom: -8px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  background-color: rgba(169, 169, 169, 0.102);
+  border-radius: 5px;
+}
