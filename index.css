@@ -104,3 +104,7 @@ a:hover {
   color: #e82c35;
   text-decoration: underline;
 }
+
+button:hover {
+  background-color: rgba(220, 38, 38, 1);
+}
