@@ -1,8 +1,9 @@
 span {
-  color: red;
+  color: #e82c35;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
-  font-size: large;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 label {
@@ -14,38 +15,92 @@ button {
   display: block;
   margin-top: 15px;
   border: none;
-  width: 600px;
-  height: 3.5rem;
+  width: 448px;
+  height: 2.7rem;
   background-color: #e5122e;
   color: white;
   border-radius: 5px;
   cursor: pointer;
-  font-weight: 900;
-  font-size: x-large;
-  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: large;
+  font-family: "Inter", sans-serif;
 }
 div {
   width: 300px;
   margin: auto;
   padding-top: 200px;
+  align-items: center;
 }
-h1 {
+#sign {
   margin-bottom: -8px;
-  font-size: 45px;
+  font-size: 30px;
   font-family: "Inter", sans-serif;
-  font-weight: 900;
+  color: #000;
 }
 
 input {
-  width: 600px;
-  height: 3.5rem;
+  width: 448px;
+  height: 2.7rem;
   border: none;
-  background-color: rgba(169, 169, 169, 0.102);
+  background-color: rgba(243, 244, 246, 1);
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
-  font-size: medium;
+  font-size: large;
+  border: none;
 }
 label {
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
+  font-size: medium;
+}
+.Or {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+  color: gray;
+  font-weight: lighter;
+}
+img {
+  width: 150px;
+  margin-top: 18px;
+  margin-left: 14px;
+}
+footer {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  margin-top: 250px;
+  margin-left: 110px;
+}
+.social {
+  font-weight: 700;
+  color: rgba(85, 85, 85, 1);
+  font-size: 17px;
+}
+
+.color {
+  color: #e5122e;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+}
+.color2 {
+  color: #e5122e;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+}
+.last {
+  color: rgba(85, 85, 85, 1);
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+.fasle {
+  color: rgba(85, 85, 85, 1);
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #e82c35;
+  text-decoration: underline;
 }
